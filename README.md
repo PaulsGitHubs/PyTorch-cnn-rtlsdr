@@ -46,23 +46,28 @@ During training, the model learns to adjust its weights to minimize the loss fun
 
 1. **Convolution Operations:**
 
-![CodeCogsEqn (1)](https://user-images.githubusercontent.com/102178068/236694786-818c6bb6-09e8-4e31-a17d-8b04b3f6a5ea.svg)
+![CodeCogsEqn (1)](https://user-images.githubusercontent.com/102178068/236694887-e01ebd33-d60e-4428-a488-cdf2f8d856cd.png)
+
 
 
 2. **ReLu Activation Function:**
 
+![CodeCogsEqn (2)](https://user-images.githubusercontent.com/102178068/236694914-9e519173-ab29-4066-b688-2af4481f49c1.png)
 
 
 3. **Max-Pooling Operation:**
 
+![CodeCogsEqn (3)](https://user-images.githubusercontent.com/102178068/236694932-b2aa1964-22ff-4d3b-bf19-c4a91a4e50b8.png)
 
 
 4. **Binary Cross-Entropy with Logits Loss:**
 
+![CodeCogsEqn (4)](https://user-images.githubusercontent.com/102178068/236694961-5f487275-64e1-4b16-9960-fd42937636cc.png)
 
 
 5. **Adam Optimizer Update Rules:**
 
+![CodeCogsEqn (5)](https://user-images.githubusercontent.com/102178068/236694994-86d2d296-01ff-4079-ac5c-b40d6a8b6244.png)
 
 
 ## Acknowledgements
