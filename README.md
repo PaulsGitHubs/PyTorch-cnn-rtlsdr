@@ -44,7 +44,24 @@ After the convolutional layers, the data is flattened and passed through two ful
 
 During training, the model learns to adjust its weights to minimize the loss function. The optimization process is carried out using the Adam optimizer, an adaptive learning rate optimization algorithm that combines the advantages of two popular gradient descent optimization techniques: AdaGrad and RMSProp.
 
-y_{i,j}&space;=&space;\sum_{m}&space;\sum_{n}&space;x_{i&plus;m,&space;j&plus;n}&space;\cdot&space;k_{m,n}
+1. **Convolution Operations:**
+
+![CodeCogsEqn](https://user-images.githubusercontent.com/102178068/236694735-c924a0c4-94eb-43f6-ab02-bc3290803cfb.svg)
+
+2. **ReLu Activation Function:**
+
+
+
+3. **Max-Pooling Operation:**
+
+
+
+4. **Binary Cross-Entropy with Logits Loss:**
+
+
+
+5. **Adam Optimizer Update Rules:**
+
 
 
 ## Acknowledgements
