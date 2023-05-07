@@ -40,6 +40,6 @@ The classifier uses a ConvNet architecture with three convolutional layers, foll
 ## Acknowledgements
 This project is inspired by Randaller's CNN-RTLSDR repo -> https://github.com/randaller/cnn-rtlsdr (which uses Tenserflow and Keras). 
 
-##License
+## License
 This project is licensed under the GNU License. See the LICENSE file for more information.
 
