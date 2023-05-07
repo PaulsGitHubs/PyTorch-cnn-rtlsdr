@@ -37,6 +37,13 @@ This will train the convolutional neural network (CNN) model on the provided dat
 ## Model Architecture
 The classifier uses a ConvNet architecture with three convolutional layers, followed by two fully connected layers. The model is trained using the binary cross-entropy with logits loss and optimized using the Adam optimizer.
 
+## Mathematical Background
+The ConvNet architecture used in this project is designed for processing 2D input data (in this case, radio signals). It consists of three convolutional layers, each followed by a ReLU (Rectified Linear Unit) activation function and a max-pooling layer. These layers are responsible for extracting features from the input data by applying convolution operations and reducing the spatial dimensions, respectively.
+
+After the convolutional layers, the data is flattened and passed through two fully connected (dense) layers. The first fully connected layer has 128 neurons, and the second one has the same number of neurons as the number of classes in the classification problem. The output of the final fully connected layer is passed through a sigmoid activation function to obtain probability estimates for each class. The model is trained using binary cross-entropy with logits loss, which measures the difference between the predicted probabilities and the actual class labels.
+
+During training, the model learns to adjust its weights to minimize the loss function. The optimization process is carried out using the Adam optimizer, an adaptive learning rate optimization algorithm that combines the advantages of two popular gradient descent optimization techniques: AdaGrad and RMSProp.
+
 ## Acknowledgements
 This project is inspired by Randaller's CNN-RTLSDR repo -> https://github.com/randaller/cnn-rtlsdr (which uses Tenserflow and Keras). 
 
