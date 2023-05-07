@@ -44,6 +44,9 @@ After the convolutional layers, the data is flattened and passed through two ful
 
 During training, the model learns to adjust its weights to minimize the loss function. The optimization process is carried out using the Adam optimizer, an adaptive learning rate optimization algorithm that combines the advantages of two popular gradient descent optimization techniques: AdaGrad and RMSProp.
 
+https://latex.codecogs.com/svg.image?y_{i,j}&space;=&space;\sum_{m}&space;\sum_{n}&space;x_{i&plus;m,&space;j&plus;n}&space;\cdot&space;k_{m,n}
+
+
 ## Acknowledgements
 This project is inspired by Randaller's CNN-RTLSDR repo -> https://github.com/randaller/cnn-rtlsdr (which uses Tenserflow and Keras). 
 
