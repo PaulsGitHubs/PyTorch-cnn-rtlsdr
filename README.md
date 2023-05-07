@@ -45,28 +45,28 @@ After the convolutional layers, the data is flattened and passed through two ful
 During training, the model learns to adjust its weights to minimize the loss function. The optimization process is carried out using the Adam optimizer, an adaptive learning rate optimization algorithm that combines the advantages of two popular gradient descent optimization techniques: AdaGrad and RMSProp.
 
 1. **Convolution Operations:**
-
+The convolution layers in the ConvNet class (nn.Conv2d) perform this operation on the input data to extract features.
 ![CodeCogsEqn (1)](https://user-images.githubusercontent.com/102178068/236694887-e01ebd33-d60e-4428-a488-cdf2f8d856cd.png)
 
 
 
 2. **ReLu Activation Function:**
-
+The ReLU activation function (nn.ReLU()) is used after each convolution layer in the ConvNet class to introduce non-linearity in the model.
 ![CodeCogsEqn (2)](https://user-images.githubusercontent.com/102178068/236694914-9e519173-ab29-4066-b688-2af4481f49c1.png)
 
 
 3. **Max-Pooling Operation:**
-
+The max-pooling layers in the ConvNet class (nn.MaxPool2d) are used after each convolution layer to reduce the spatial dimensions of the feature maps and to achieve translation invariance.
 ![CodeCogsEqn (3)](https://user-images.githubusercontent.com/102178068/236694932-b2aa1964-22ff-4d3b-bf19-c4a91a4e50b8.png)
 
 
 4. **Binary Cross-Entropy with Logits Loss:**
-
+The nn.BCEWithLogitsLoss() function calculates the binary cross-entropy with logits loss, which is used as the loss function for training the classifier.
 ![CodeCogsEqn (4)](https://user-images.githubusercontent.com/102178068/236694961-5f487275-64e1-4b16-9960-fd42937636cc.png)
 
 
 5. **Adam Optimizer Update Rules:**
-
+The optim.Adam() function is used as the optimizer for updating the model's weights during training.
 ![CodeCogsEqn (5)](https://user-images.githubusercontent.com/102178068/236694994-86d2d296-01ff-4079-ac5c-b40d6a8b6244.png)
 
 
