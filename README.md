@@ -46,7 +46,8 @@ During training, the model learns to adjust its weights to minimize the loss fun
 
 1. **Convolution Operations:**
 
-![CodeCogsEqn](https://user-images.githubusercontent.com/102178068/236694735-c924a0c4-94eb-43f6-ab02-bc3290803cfb.svg)
+![CodeCogsEqn (1)](https://user-images.githubusercontent.com/102178068/236694786-818c6bb6-09e8-4e31-a17d-8b04b3f6a5ea.svg)
+
 
 2. **ReLu Activation Function:**
 
