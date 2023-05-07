@@ -1,4 +1,4 @@
-# Radio Signal Classifier
+# PyTorch CNN Radio Signal Classifier for RTL SDR
 
 This repository contains a radio signal classifier using deep learning. The classifier is trained on a dataset of various radio signal types, such as WFM, TV, TETRA, GSM, and others. The classifier is built using PyTorch and tested using the RTL-SDR software-defined radio (SDR) device.
 
