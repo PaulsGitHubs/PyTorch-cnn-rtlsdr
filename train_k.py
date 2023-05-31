@@ -8,7 +8,7 @@ import dataset2
 from rtlsdr import RtlSdr
 import scipy.signal as signal
 import os
-
+#needs work
 train_path = 'training_data'
 classes = [d for d in os.listdir(train_path) if os.path.isdir(os.path.join(train_path, d))]
 num_classes = len(classes)
